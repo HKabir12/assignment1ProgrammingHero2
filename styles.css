@@ -8,14 +8,15 @@
     font-size: 40px;
     background: #1234f5;
     text-align: center;
-    padding: 10px;
-
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .bg {
     background-image: url(assets/bg.png);
-    padding-left: 90px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 50px;
 
 }
 
@@ -92,6 +93,7 @@
     font-size: 30px;
     cursor: pointer;
     padding-right: 1px;
+    
 }
 
 .part1 {
@@ -114,7 +116,8 @@
 }
 
 .imghero1 {
-    height: 500px;
+    height: 400px;
+    align-items: center;
 
 }
 
@@ -157,7 +160,7 @@
     border-radius: 5px;
     text-align: center;
     height: 300px;
-    width: 400px;
+    width:365px;
 }
 
 .elementary {
@@ -165,7 +168,7 @@
     border-radius: 5px;
     text-align: center;
     height: 300px;
-    width: 400px;
+    width:365px;
 }
 
 .middle {
@@ -173,7 +176,7 @@
     border-radius: 5px;
     text-align: center;
     height: 300px;
-    width: 400px;
+    width:365px;
 }
 
 .circle-button {
@@ -188,16 +191,16 @@
     border: none;
     outline: none;
 
-    
-  }
 
-  .icon {
+}
+
+.icon {
     justify-content: center;
     display: flex;
     gap: 10px;
-   padding-top: 5cqb; 
+    padding-top: 5cqb;
 
-  }
+}
 
 
 
@@ -231,6 +234,7 @@
     top: -15px;
     left: 40px;
 }
+
 .card-date-1 {
     background-color: #2dc33c;
     color: white;
@@ -243,6 +247,7 @@
     top: -15px;
     left: 40px;
 }
+
 .card-date-2 {
     background-color: #322dc3;
     color: white;
@@ -255,6 +260,7 @@
     top: -15px;
     left: 40px;
 }
+
 .card-date-3 {
     background-color: #c3be2d;
     color: white;
@@ -267,6 +273,7 @@
     top: -15px;
     left: 40px;
 }
+
 .card-date-4 {
     background-color: #180cb9;
     color: white;
@@ -378,9 +385,11 @@ footer {
     padding-right: 20px;
 
 }
-.footericon{
+
+.footericon {
     margin: 5px;
 }
+
 .kidedu {
     display: flex;
     font-size: 30px;
@@ -396,15 +405,15 @@ footer {
 
 .mobile-only {
     display: none;
-
+    
 }
 
 /*Responsive media  */
 @media screen and (max-width:576px) {
 
-    .bg {
-        padding-left: 40px;
-        padding-right: 20px;
+    .nav1 {
+        width:90%;
+        
     }
 
     .footer1 {
@@ -419,18 +428,12 @@ footer {
     .footermid {
         margin-bottom: 20px;
     }
-    
+
 
     .f3 {
         display: flex;
         margin-bottom: 20px;
-        
-    }
-    footer{
-        width: 100%;
-    }
-    .marq {
-        font-size: 20px;
+
     }
 
     .school,
@@ -445,11 +448,11 @@ footer {
         border-top: 2px solid #f70f0f;
         margin: 20px 0;
 
-
     }
 
     .hamburger {
         display: block;
+        
     }
 
     .part1 {
@@ -481,8 +484,11 @@ footer {
         grid-template-columns: 1fr;
         gap: 10px;
         width: 100%;
+        
     }
-     .context{
+
+    .context {
         padding: 5px;
-     }
+    }
+
 }
