@@ -427,7 +427,7 @@ footer {
         
     }
     footer{
-        width: auto;
+        width: 100%;
     }
     .marq {
         font-size: 20px;
