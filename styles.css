@@ -415,7 +415,10 @@ footer {
         width:90%;
         
     }
+    footer .marq{
+        width: 100%;
 
+    }
     .footer1 {
         flex-direction: column;
         padding-left: 5px;
