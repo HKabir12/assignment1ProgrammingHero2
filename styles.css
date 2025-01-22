@@ -151,8 +151,9 @@
 .part2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 40px;
-    gap: 20px;
+    /* padding-top: 40px;
+   width: 100%; */
+   gap: 20px;
 }
 
 .kinder {
@@ -160,7 +161,7 @@
     border-radius: 5px;
     text-align: center;
     height: 300px;
-    width:365px;
+    width:400px;
 }
 
 .elementary {
@@ -168,7 +169,7 @@
     border-radius: 5px;
     text-align: center;
     height: 300px;
-    width:365px;
+    width:400px;
 }
 
 .middle {
@@ -176,7 +177,7 @@
     border-radius: 5px;
     text-align: center;
     height: 300px;
-    width:365px;
+    width:400px;
 }
 
 .circle-button {
@@ -340,11 +341,6 @@
 
 
 
-
-
-
-
-
 .btn4 {
     width: 120px;
     height: 30px;
@@ -410,6 +406,12 @@ footer {
 
 /*Responsive media  */
 @media screen and (max-width:576px) {
+    
+    .kinder,.elementary,.middle{
+        width: 98%;
+    }
+
+
 
     .nav1 {
         width:90%;
