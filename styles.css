@@ -3,6 +3,13 @@
 
 }
 
+/* body {
+    background: 
+      linear-gradient(to right, #000 1px, transparent 1px),
+      linear-gradient(to bottom, #000 1px, transparent 1px);
+     background-size: 20px 20px; 
+  } */
+
 .marq {
     color: #5ce961;
     font-size: 40px;
@@ -20,7 +27,13 @@
    
 
 }
+.middle_color {
+    background: 
+      linear-gradient(to right, #FEBB45 0px, transparent 0px),
+      linear-gradient(to bottom, #FEBB45 0px, transparent 0px);
+    background-size: 10px 20px;
 
+  }
 .nav1 {
     display: flex;
     text-align: center;
