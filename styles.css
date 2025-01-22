@@ -435,7 +435,9 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
     }
-
+    .content{
+        padding-top: 40px;
+    }
     .child {
         height: 210px;
         margin: 10px;
@@ -547,9 +549,11 @@ footer {
 
     footer .marq {
         width: 100%;
-
+        
     }
-
+    footer{
+        padding-left: 15px;
+     }
     .footer1 {
         flex-direction: column;
         padding-left: 0px;
@@ -561,16 +565,13 @@ footer {
     }
 
     .footermid,
-    .f1,
-    .f3 {
+    .f1
+     {
         margin-bottom: 20px;
     }
-
-
-    .f3 {
-        display: flex;
-        margin-bottom: 20px;
-
+    .footerimg{
+        margin-top: 15px;
     }
+
 
 }
