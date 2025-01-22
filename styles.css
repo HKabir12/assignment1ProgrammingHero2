@@ -18,6 +18,7 @@
     padding-left: 40px;
     padding-right: 50px;
 
+
 }
 
 .nav1 {
@@ -180,6 +181,21 @@
     width: 400px;
 }
 
+.read1 {
+    text-align: center;
+    color: #0a07bd;
+}
+
+.read2 {
+    text-align: center;
+    color: #bd4d07;
+}
+
+.read3 {
+    text-align: center;
+    color: #9c07bd;
+}
+
 .circle-button {
     width: 50px;
     height: 50px;
@@ -215,11 +231,12 @@
 
 .part31 {
     width: 95%;
+    height: 98%;
     border-radius: 5px;
     background-color: #d7d5d5;
-    height: 600px;
+    /* height: 600px; */
     border-radius: 10px;
-    /* card */
+
 
 }
 
@@ -234,6 +251,7 @@
     position: relative;
     top: -15px;
     left: 40px;
+
 }
 
 .card-date-1 {
@@ -308,14 +326,16 @@
 .part32 {
     display: grid;
     grid-template-columns: 2fr 2fr;
+
 }
 
 .child {
-    background-color: #cb1515;
+    background-color: #ddd9d9;
     width: 90%;
     height: calc(95%);
     /* margin-bottom: 20px; */
     border-radius: 10px;
+
 
 }
 
@@ -329,7 +349,7 @@
 
 .context {
     padding-left: 30px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .viewall {
@@ -403,9 +423,11 @@ footer {
     display: none;
 
 }
-.hide{
+
+.hide {
     display: none;
 }
+
 /*Responsive media  */
 @media screen and (max-width:576px) {
 
@@ -413,7 +435,12 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
     }
-    
+
+    .child {
+        height: 210px;
+        margin: 10px;
+    }
+
     .kinder,
     .elementary,
     .middle {
@@ -424,13 +451,15 @@ footer {
     .nav1 {
         display: flex;
         grid-template-columns: 1fr 1fr;
-        
+
     }
+
     .navbar {
         display: flex;
         justify-content: right;
-       
+
     }
+
     .school,
     .navlink,
     .btn_1 {
@@ -444,13 +473,14 @@ footer {
         margin: 20px 0;
 
     }
-    .hide{
+
+    .hide {
         display: block;
         cursor: pointer;
     }
 
     .hamburger {
-        display: block; 
+        display: block;
         font-size: 30px;
         cursor: pointer;
     }
@@ -480,13 +510,23 @@ footer {
         grid-template-columns: 1fr;
         gap: 10px;
     }
-    .part31{
+
+    .part31 {
         display: none;
     }
-    .card-date-1,.card-date-2,.card-date-3,.card-date-4{
-      left: 10px;
-      
+
+    .card-date-1,
+    .card-date-2,
+    .card-date-3,
+    .card-date-4 {
+        left: 10px;
+        width: 90px;
+        height: 15px;
+        font-size: 10px;
+
+
     }
+
     .part3 {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -495,10 +535,12 @@ footer {
 
     }
 
-    .child img, .part31 img {
+    .child img,
+    .part31 img {
         width: 100%;
         height: auto;
     }
+
     .context {
         padding: 5px;
     }
@@ -511,14 +553,16 @@ footer {
     .footer1 {
         flex-direction: column;
         padding-left: 0px;
-        
+
     }
 
     .f1 {
         margin-bottom: 20px;
     }
 
-    .footermid , .f1 , .f3 {
+    .footermid,
+    .f1,
+    .f3 {
         margin-bottom: 20px;
     }
 
